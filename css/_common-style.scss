@@ -1,0 +1,261 @@
+//頁首
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nav-lift {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .nav-right {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .nav-account {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+
+    .nav-account-right a {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+      font-size: 12px;
+      font-weight: 200;
+    }
+  }
+
+
+  .container-fluid {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+
+
+
+
+
+
+}
+
+
+
+// 頁尾
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+  p {
+    font-size: 0.8rem;
+    color: #19456B;
+  }
+
+  .footer-top {
+    display: flex;
+    gap: 15px;
+    height: 1.5rem;
+  }
+
+}
+
+
+
+//按鈕
+
+.button01 {
+    display: flex;
+    padding:0.4rem 5rem;
+    color: #19456B;
+    border: 2px solid #19456B;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+        background-color: #ffffff;
+}
+
+  /* Hover state */
+  .button01:hover {
+    background-color: #19456B;
+    color: #ffffff;
+  }
+  
+  /* Clicked state (add this class when the button is clicked) */
+  .button01.clicked {
+    background-color: #19456B;
+    color: #ffffff;
+  }
+
+
+
+  .button02{
+    display: flex;
+    color: #6C757D;
+    border: 2px solid #ADB5BD;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #ffffff;
+    width: 7rem;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+        background-color: #ffffff;
+        .material-symbols-outlined {
+          color: #6C757D;
+        }
+        width: auto;
+}
+
+  /* Hover state */
+  .button02:hover {
+    background-color: #6C757D;
+    color: #ffffff;
+    .material-symbols-outlined {
+      color: #ffffff;
+    }
+    width: auto;
+  }
+  
+  /* Clicked state (add this class when the button is clicked) */
+  .button02.clicked {
+    background-color: #19456B;
+    color: #ffffff;
+    .material-symbols-outlined {
+      color: #ffffff;
+    }
+    width: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+// TXT
+
+.txt-01{
+  color: var(--body-text-body-color, #212529);
+  font-size: 1.2rem;
+  font-weight: 550;
+  position: relative;
+  letter-spacing: 1px;
+}
+
+.txt-02{
+  color: var(--body-text-body-color, #515151);
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 55rem;
+
+}
+
+
+.txt-X{
+//多元字元 變成"..."
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+}
+
+.txt-03{
+  color: var(--body-text-body-color, #212529);
+  font-size: 1.8rem;
+  font-weight: 550;
+  position: relative;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+  // badge標籤
+
+.badge{
+  margin: 0 0.2rem;
+}
+  
+  .text-bg-unready{
+    // 未讀
+    background-color: #E33737;
+  }
+  
+  .text-bg-unclosed-case{
+    //未結案
+    background-color: #AC408E;
+  }
+  
+  .text-bg-read{
+    background-color: #4085AC;
+  }
+  
+  .text-bg-finish{
+    background-color: #6C757D;
+  }
+  
+
+  .text-bg-new{
+    background-color: 
+    
+    #ffffff  ;
+    border: 2px solid #E33737; /* 实线边框 */
+    color:#E33737 ;
+  }
+
+
+
+
+
+
+
+
+  //頁碼
+  .Page
+  {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+
+  }

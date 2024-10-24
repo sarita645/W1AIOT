@@ -1,0 +1,141 @@
+.directory {
+  background-image: none;
+  background-color: #ffffff;
+
+}
+
+
+.container-menu{
+  display: flex;
+
+.menu-left{
+display: flex;
+flex-direction: column;
+align-items: stretch;
+gap: 1rem;
+
+
+
+
+  /* Sidebar styles */
+  .sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #e6e6e6;
+  }
+  
+  .sidebar li.active a {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+}
+
+
+
+
+  /* Main content styles */
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content-page {
+    display: none;
+    padding: 30px;
+  }
+  
+  .content-page.active {
+    display: block;
+    flex-wrap: wrap;
+  }
+  
+}
+
+
+
+
+
+
+.active{
+
+
+  .notify-naka-a{
+    background-color: #E9ECEF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+      gap: 1rem;
+  padding: 0.4rem 1rem;
+
+
+}
+}
+
+
+
+.active-naka{
+  display: flex;
+padding: 1rem 0rem;
+flex-direction: column;
+  position: 3rem;
+  border-bottom: 1px solid #b6b6b6; /* 1px wide, dotted green bottom border */
+
+
+}
+
+
+
+.container-pcalendar{
+  display: flex;
+  justify-content: space-between;
+
+
+.container-calendar {
+
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+
+   label {
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  input,select {
+    width: 10rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }/*# sourceMappingURL=test01.css.map */
+  
+
+
+}
+
+}
